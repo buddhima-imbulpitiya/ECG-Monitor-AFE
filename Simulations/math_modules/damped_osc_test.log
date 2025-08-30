@@ -1,0 +1,14 @@
+LTspice 24.1.8 for Windows
+Circuit: D:\Downloads New\math_modules\math_modules\damped_osc_test.net
+Start Time: Sat Aug 30 23:32:43 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 15.284 seconds.
+
+Files loaded:
+D:\Downloads New\math_modules\math_modules\damped_osc_test.net
+

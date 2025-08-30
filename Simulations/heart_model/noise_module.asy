@@ -1,0 +1,12 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 48 47 -127 -36
+PIN -128 -16 LEFT 8
+PINATTR PinName amp_in
+PINATTR SpiceOrder 1
+PIN -128 32 LEFT 8
+PINATTR PinName BW_in
+PINATTR SpiceOrder 2
+PIN 48 0 RIGHT 8
+PINATTR PinName noise
+PINATTR SpiceOrder 3
