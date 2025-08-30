@@ -1,6 +1,6 @@
 LTspice 24.1.8 for Windows
 Circuit: D:\Semester 3\Lab\Analog ECG Monitor\Simulations\heart_model\ECG with noise.net
-Start Time: Sun Aug 31 00:41:26 2025
+Start Time: Sun Aug 31 01:13:02 2025
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -28,7 +28,7 @@ Gmin stepping succeeded in finding the operating point.
 
 
 Simulation stopped by user.
-Total elapsed time: 82.164 seconds.
+Total elapsed time: 93.685 seconds.
 
 Files loaded:
 D:\Semester 3\Lab\Analog ECG Monitor\Simulations\heart_model\ECG with noise.net

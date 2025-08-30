@@ -1,0 +1,9 @@
+LTspice 24.1.8 for Windows
+Circuit: D:\Semester 3\Lab\Analog ECG Monitor\Simulations\heart_model\noise_module.net
+Start Time: Sun Aug 31 01:08:01 2025
+D:\Semester 3\Lab\Analog ECG Monitor\Simulations\heart_model\noise_module.net(6): No such node.
+B3 amp 0 V=V(amp_in)
+             ^^^^^^
+D:\Semester 3\Lab\Analog ECG Monitor\Simulations\heart_model\noise_module.net(7): No such node.
+B4 0 low I= - ddt(V(low)) /(2*pi*1000*V(BW_in))
+                                        ^^^^^
