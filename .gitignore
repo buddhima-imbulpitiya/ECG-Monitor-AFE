@@ -1,0 +1,12 @@
+# LTspice simulation outputs
+*.log
+*.raw
+*.op.raw
+
+# Ignore backup and temp files
+*~
+*.bak
+
+# Ignore system clutter
+.DS_Store
+Thumbs.db
