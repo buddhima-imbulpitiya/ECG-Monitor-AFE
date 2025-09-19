@@ -23,7 +23,7 @@ This project involves the design and implementation of a real-time, **3-lead ECG
 2. **Navigate to a specific directory** to work on a task (e.g., `cd schematics`).
 3. **Contribute:** Create a new branch, make your changes, commit, and push. Then, submit a pull request for review.
    
-# 👥 Team
+## 👥 Team
 
 - [Buddhima Imbulpitiya](https://github.com/buddhima-imbulpitiya)
 - [Oshan Imaduwage](https://github.com/oshan-imaduwage)
