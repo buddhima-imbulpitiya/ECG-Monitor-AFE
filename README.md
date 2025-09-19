@@ -25,7 +25,7 @@ This project involves the design and implementation of a real-time, **3-lead ECG
    
 # 👥 Team
 
-- [@Buddhima Imbulpitiya](https://github.com/ManiiAya)
-- [@Oshan Imaduwage](https://github.com/oshan-imaduwage)
-- [@Malinda Illankoon](https://github.com/malindailankoon)
-- [@Manitha Ayanaja](https://github.com/ManiiAya)
+- [Buddhima Imbulpitiya](https://github.com/buddhima-imbulpitiyaa)
+- [Oshan Imaduwage](https://github.com/oshan-imaduwage)
+- [Malinda Illankoon](https://github.com/malindailankoon)
+- [Manitha Ayanaja](https://github.com/ManiiAya)
