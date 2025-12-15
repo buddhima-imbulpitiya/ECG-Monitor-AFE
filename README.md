@@ -37,7 +37,7 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 ## 🔨 Hardware Implementation
 
 ### PCB Design
-- **Software**: KiCAD/Altium Designer
+- **Software**: EasyEDA
 - **Type**: Through-hole components for reliability and ease of assembly
 - **Layout**: Optimized for minimal noise coupling and proper grounding
 
