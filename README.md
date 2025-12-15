@@ -1,28 +1,164 @@
-# 🩺 Analog Heart ECG Monitor
+# 3-Lead Analog ECG Monitor
 
-## ✨ **Overview**
-This project involves the design and implementation of a real-time, **3-lead ECG monitor**. The core of the device is an analog front end (AFE) that acquires weak electrical signals from the human heart. The AFE processes these signals, amplifying them and filtering out noise to produce a clear ECG waveform. A microcontroller is used solely for displaying this waveform on an appropriate screen.
+A fully functional analog electrocardiogram (ECG) monitor designed and developed using exclusively analog electronics for signal acquisition, amplification, and filtering. The device captures cardiac electrical activity through three electrodes and outputs a clean ECG waveform for real-time monitoring on an oscilloscope.
 
-## ⚙️ **Specifications**
-- **Leads:** 3-lead ECG acquisition.
-- **Amplification:** At least one stage of amplification using analog electronics (op-amps, resistors, capcitors etc).
-- **Filtering:** Use of first-order active filters to remove unwanted noise.
-- **Display:** A microcontroller is used for signal display on a screen (e.g., OLED).
-- **Enclosure:** A custom-designed enclosure compatible with market-available ECG electrodes.
+## 📋 Table of Contents
 
-## 📁 **Repository Structure**
-- `schematics/`: Circuit schematics and diagrams.
-- `simulations/`: Circuit simulation files (LTspice, Multisim, etc.).
-- `pcb_design/`: PCB layout, Gerber files, and Bill of Materials (BoM).
-- `enclosure_design/`: 3D models and manufacturing files for the enclosure.
-- `documentation/`: Project reports, datasheets, and other relevant documents.
+- [Overview](#overview)
+- [Features](#features)
+- [System Architecture](#system-architecture)
+- [Circuit Design](#circuit-design)
+- [Hardware Implementation](#hardware-implementation)
+- [Testing Results](#testing-results)
+- [Repository Structure](#repository-structure)
+- [Getting Started](#getting-started)
+- [Team](#team)
 
-## 🚀 **Getting Started**
-1. **Clone the repository:** `git clone [repository_url]`
-2. **Navigate to a specific directory** to work on a task (e.g., `cd schematics`).
-3. **Contribute:** Create a new branch, make your changes, commit, and push. Then, submit a pull request for review.
-   
-## 👥 Team
+## 🔬 Overview
+
+This project demonstrates the design and implementation of a 3-lead ECG monitoring system built entirely with analog components. The device safely extracts weak bioelectric signals from the human body (10 μV to 5 mV), amplifies them, and filters noise to produce a diagnostic-quality ECG waveform suitable for cardiac monitoring.
+
+### Key Specifications
+
+- **Signal Range**: 10 μV - 5 mV input amplitude
+- **Frequency Range**: 0.5 Hz - 100 Hz (cardiac signal bandwidth)
+- **Electrode Configuration**: 3-lead setup (LA, RA, RL) following Einthoven's Triangle
+- **Power Supply**: Battery-operated (dual 6V Li-Ion) for minimal powerline interference
+- **Output**: Analog signal for oscilloscope display
+
+## ✨ Features
+
+- **High-Precision Instrumentation Amplifier**: OP07-based differential amplifier with adjustable gain and excellent CMRR (120 dB)
+- **Multi-Stage Filtering**:
+  - 2nd Order High-Pass Butterworth Filter (0.5 Hz cutoff) - removes baseline wander
+  - 4th Order Low-Pass Butterworth Filter (100 Hz cutoff) - eliminates high-frequency noise
+  - Wien-Robinson Notch Filter (50 Hz) - suppresses powerline interference
+- **Right Leg Drive (RLD) Circuit**: Active common-mode rejection for enhanced noise immunity
+- **Safety-First Design**: Battery-powered operation ensures patient safety
+- **Custom PCB**: Professional PCB layout optimized for low-noise analog signal processing
+- **3D-Printed Enclosure**: Ergonomic, portable design with proper electrode connections
+
+### Signal Processing Stages
+
+1. **Instrumentation Amplifier**: Extracts differential voltage between LA and RA electrodes with variable gain
+2. **High-Pass Filter**: Removes DC offset and baseline wander (fc = 0.589 Hz)
+3. **Low-Pass Filter**: Eliminates muscle artifacts and high-frequency interference (fc = 100 Hz)
+4. **Notch Filter**: Attenuates 50 Hz powerline noise (fc = 49.8 Hz, Q = 0.67)
+5. **Right Leg Drive**: Inverts and feeds back common-mode signals for active noise cancellation
+
+## 🔧 Circuit Design
+
+### Instrumentation Amplifier
+- **IC**: OP07 Precision Op-Amp
+- **Gain Formula**: Av = (1 + 2R/Rgain) × (R9/R4)
+- **Adjustable**: Potentiometer-based gain control
+
+### Filter Designs
+
+**High-Pass Filter (2nd Order Butterworth)**
+- Cutoff: 0.589 Hz
+- Gain: 2
+- Components: R = 270 kΩ, C = 1 μF
+
+**Low-Pass Filter (4th Order Butterworth, Sallen-Key)**
+- Cutoff: 100.73 Hz
+- Topology: Cascaded 2nd order stages
+- Components: R = 15.8 kΩ, C = 100 nF
+- Q-factors: Q1 = 0.5411, Q2 = 1.307
+
+**Notch Filter (Wien-Robinson)**
+- Center Frequency: 49.798 Hz
+- Q-Factor: 0.67 (tunable via potentiometer)
+- Gain: -3.46 dB
+
+### Component Selection
+
+**OP07 Operational Amplifier** chosen for:
+- CMRR: 120 dB
+- PSRR: 7 μV/V
+- Unity Gain Bandwidth: 0.6 MHz
+- Low Input Offset Voltage: 60 μV
+
+**Mylar Capacitors**: Selected for high Q-factor and non-polarized operation in filtering applications
+
+## 🔨 Hardware Implementation
+
+### PCB Design
+- **Software**: KiCAD/Altium Designer
+- **Type**: Through-hole components for reliability and ease of assembly
+- **Layout**: Optimized for minimal noise coupling and proper grounding
+
+### Enclosure
+- **Manufacturing**: 3D printed
+- **Design**: Custom enclosure with cutouts for:
+  - Electrode connections
+  - Power switch
+  - Output leads
+  - Potentiometer access for gain adjustment
+
+## 📊 Testing Results
+
+### Breadboard Prototype
+- ✅ Successfully captured function generator ECG signals
+- ✅ Verified with real human ECG signals
+- ✅ Clean waveform with identifiable P, QRS, and T waves
+
+### Final PCB Device
+- ✅ Improved signal quality over breadboard implementation
+- ✅ Reduced noise and interference
+- ✅ Portable and user-friendly operation
+
+## 📁 Repository Structure
+
+```
+├── schematics/              # Circuit diagrams and design files
+├── simulations/             # LTspice simulation files and results
+├── pcb_design/              # KiCAD/Altium files, Gerber files, BoM
+├── enclosure_design/        # 3D CAD models (.STL, .STEP files)
+├── documentation/           # Project report, datasheets, calculations
+├── testing/                 # Test results, oscilloscope captures
+└── README.md               # This file
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- PCB fabrication service (or equipment)
+- Soldering equipment
+- 3D printer (for enclosure)
+- Standard ECG electrodes with 3.5mm connectors
+- Oscilloscope for signal visualization
+- 6V Li-Ion batteries (×2)
+
+### Building the Device
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/ecg-monitor.git
+   cd ecg-monitor
+   ```
+
+2. **PCB Fabrication**
+   - Navigate to `pcb_design/`
+   - Send Gerber files to PCB manufacturer
+   - Order components from BoM
+
+3. **Assembly**
+   - Solder components following the schematic
+   - Test each stage individually before integration
+   - Calibrate gain and notch filter potentiometers
+
+4. **Enclosure**
+   - Print enclosure from `enclosure_design/` files
+   - Assemble PCB into enclosure
+   - Connect battery pack and electrode leads
+
+5. **Testing**
+   - Use function generator with cardiac mode for initial testing
+   - Test with real ECG signals
+   - Adjust potentiometers for optimal signal quality
+
+## 👥 Team SocketBurners
 
 - [Buddhima Imbulpitiya](https://github.com/buddhima-imbulpitiya)
 - [Oshan Imaduwage](https://github.com/oshan-imaduwage)
