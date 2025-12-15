@@ -2,18 +2,6 @@
 
 A fully functional analog electrocardiogram (ECG) monitor designed and developed using exclusively analog electronics for signal acquisition, amplification, and filtering. The device captures cardiac electrical activity through three electrodes and outputs a clean ECG waveform for real-time monitoring on an oscilloscope.
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [System Architecture](#system-architecture)
-- [Circuit Design](#circuit-design)
-- [Hardware Implementation](#hardware-implementation)
-- [Testing Results](#testing-results)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Team](#team)
-
 ## 🔬 Overview
 
 This project demonstrates the design and implementation of a 3-lead ECG monitoring system built entirely with analog components. The device safely extracts weak bioelectric signals from the human body (10 μV to 5 mV), amplifies them, and filters noise to produce a diagnostic-quality ECG waveform suitable for cardiac monitoring.
@@ -45,41 +33,6 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 3. **Low-Pass Filter**: Eliminates muscle artifacts and high-frequency interference (fc = 100 Hz)
 4. **Notch Filter**: Attenuates 50 Hz powerline noise (fc = 49.8 Hz, Q = 0.67)
 5. **Right Leg Drive**: Inverts and feeds back common-mode signals for active noise cancellation
-
-## 🔧 Circuit Design
-
-### Instrumentation Amplifier
-- **IC**: OP07 Precision Op-Amp
-- **Gain Formula**: Av = (1 + 2R/Rgain) × (R9/R4)
-- **Adjustable**: Potentiometer-based gain control
-
-### Filter Designs
-
-**High-Pass Filter (2nd Order Butterworth)**
-- Cutoff: 0.589 Hz
-- Gain: 2
-- Components: R = 270 kΩ, C = 1 μF
-
-**Low-Pass Filter (4th Order Butterworth, Sallen-Key)**
-- Cutoff: 100.73 Hz
-- Topology: Cascaded 2nd order stages
-- Components: R = 15.8 kΩ, C = 100 nF
-- Q-factors: Q1 = 0.5411, Q2 = 1.307
-
-**Notch Filter (Wien-Robinson)**
-- Center Frequency: 49.798 Hz
-- Q-Factor: 0.67 (tunable via potentiometer)
-- Gain: -3.46 dB
-
-### Component Selection
-
-**OP07 Operational Amplifier** chosen for:
-- CMRR: 120 dB
-- PSRR: 7 μV/V
-- Unity Gain Bandwidth: 0.6 MHz
-- Low Input Offset Voltage: 60 μV
-
-**Mylar Capacitors**: Selected for high Q-factor and non-polarized operation in filtering applications
 
 ## 🔨 Hardware Implementation
 
