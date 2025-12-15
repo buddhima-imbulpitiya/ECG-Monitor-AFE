@@ -5,7 +5,7 @@ This project involves the design and implementation of a real-time, **3-lead ECG
 
 ## ⚙️ **Specifications**
 - **Leads:** 3-lead ECG acquisition.
-- **Amplification:** At least one stage of amplification using analog electronics (transistors, op-amps).
+- **Amplification:** At least one stage of amplification using analog electronics (op-amps, resistors, capcitors etc).
 - **Filtering:** Use of first-order active filters to remove unwanted noise.
 - **Display:** A microcontroller is used for signal display on a screen (e.g., OLED).
 - **Enclosure:** A custom-designed enclosure compatible with market-available ECG electrodes.
