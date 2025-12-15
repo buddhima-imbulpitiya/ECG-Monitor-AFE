@@ -14,7 +14,6 @@ This project involves the design and implementation of a real-time, **3-lead ECG
 - `schematics/`: Circuit schematics and diagrams.
 - `simulations/`: Circuit simulation files (LTspice, Multisim, etc.).
 - `pcb_design/`: PCB layout, Gerber files, and Bill of Materials (BoM).
-- `firmware/`: Microcontroller code for the display interface.
 - `enclosure_design/`: 3D models and manufacturing files for the enclosure.
 - `documentation/`: Project reports, datasheets, and other relevant documents.
 
