@@ -1,4 +1,4 @@
-# 🩺 ECG Monitor Project
+# 🩺 Analog Heart ECG Monitor
 
 ## ✨ **Overview**
 This project involves the design and implementation of a real-time, **3-lead ECG monitor**. The core of the device is an analog front end (AFE) that acquires weak electrical signals from the human heart. The AFE processes these signals, amplifying them and filtering out noise to produce a clear ECG waveform. A microcontroller is used solely for displaying this waveform on an appropriate screen.
