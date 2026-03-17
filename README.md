@@ -60,6 +60,14 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
   - Power switch
   - ECG leads
   - Potentiometer access for gain adjustment
+    
+ <p align=>
+  <img width="37%"  src="Images/Enclosure 1.jpg"/>
+   &nbsp;&nbsp;&nbsp;&nbsp;
+  <img width="27%"  src="Images/Enclosure 2.jpg"/>
+   &nbsp;&nbsp;&nbsp;&nbsp;
+  <img width="26.5%"  src="Images/Enclosure 3.jpg"/> 
+<p/>
 
 ## 📊 Testing Results
 
@@ -68,10 +76,40 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 - ✅ Verified with real human ECG signals
 - ✅ Clean waveform with identifiable P, QRS, and T waves
 
+<p align=>
+  <img width="35%"  src="Images/Breadboard Circuit.JPG"/>
+ &nbsp;&nbsp;&nbsp;
+  <img width="59%"  src="Images/LTSpice Simulation.png"/>
+<p/>
+<p align=>
+  <em>Input ECG Waveform :</em>
+  <br/>
+  <img width="96.5%"  src="Images/LTSpice Input.png"/>
+    
+ 
+  <em>Output ECG Waveform :</em>
+  <br/>
+  <img width="96.5%"  src="Images/LTSpice Output.png"/>
+    
+
+  <em>Overall Frequency Response :</em>
+  <br/>
+  <img width="96.5%"  src="Images/Overall Frequency Response.png"/>
+
+
+<p/>
+
+
 ### Final PCB Device
 - ✅ Improved signal quality over breadboard implementation
 - ✅ Reduced noise and interference
 - ✅ Portable and user-friendly operation
+
+<p align=>
+  <img width="45%"  src="Images/Final_Product.jpg"/>
+  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+  <img width="25%"  src="Images/Final Assembly.JPG"/>
+<p/>
 
 ## 📁 Repository Structure
 
