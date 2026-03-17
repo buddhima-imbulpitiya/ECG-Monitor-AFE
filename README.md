@@ -83,8 +83,12 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 <p/>
 <p align=>
   <img width="96%"  src="Images/LTSpice Input.png"/>
+  <br/>
+  <em>Input ECG Waveform</em>
  &nbsp;&nbsp;&nbsp;
   <img width="96%"  src="Images/LTSpice Output.png"/>
+  <br/>
+  <em>Output ECG Waveform</em>
 <p/>
 
 
