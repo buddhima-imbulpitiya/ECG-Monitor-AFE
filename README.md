@@ -2,8 +2,9 @@
 
 A fully functional analog front end (AFE) for an electrocardiogram (ECG) monitor designed and developed using exclusively analog electronics for signal acquisition, amplification, and filtering. The device captures cardiac electrical activity through three electrodes and outputs a clean ECG waveform for real-time monitoring on an oscilloscope.
 
-<img width="50%"  src="Images/Final_Product.jpg"/>
-
+<p align="center">
+<img width="50%"  src="Images/Final_Product_Studio.jpg"/>
+<p/>
 ## 🔬 Overview
 
 This project demonstrates the design and implementation of a 3-lead ECG monitoring system built entirely with analog components. The device safely extracts weak bioelectric signals from the human body (10 μV to 5 mV), amplifies them, and filters noise to produce a diagnostic-quality ECG waveform suitable for cardiac monitoring.
