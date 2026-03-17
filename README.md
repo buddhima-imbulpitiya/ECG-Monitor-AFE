@@ -62,7 +62,7 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
   - Potentiometer access for gain adjustment
     
  <p align=>
-  <img width="33%"  src="Images/Enclosure 1.jpg"/>
+  <img width="36%"  src="Images/Enclosure 1.jpg"/>
   <img width="33%"  src="Images/Enclosure 2.jpg"/>
   <img width="33%"  src="Images/Enclosure 3.jpg"/> 
 <p/>
