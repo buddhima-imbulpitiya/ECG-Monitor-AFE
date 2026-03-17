@@ -107,8 +107,8 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 
 <p align=>
   <img width="45%"  src="Images/Final_Product.jpg"/>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img width="45%"  src="Images/Final Assembly.JPG"/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img width="43%"  src="Images/Final Assembly.JPG"/>
 <p/>
 
 ## 📁 Repository Structure
