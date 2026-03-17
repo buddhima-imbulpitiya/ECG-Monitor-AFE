@@ -79,7 +79,7 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 <p align=>
   <img width="35%"  src="Images/Breadboard Circuit.JPG"/>
   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-  <img width="41%"  src="Images/LTSpice Simulation.png"/>
+  <img width="48%"  src="Images/LTSpice Simulation.png"/>
 <p/>
   
 
