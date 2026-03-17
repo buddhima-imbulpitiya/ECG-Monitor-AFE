@@ -3,7 +3,7 @@
 A fully functional analog front end (AFE) for an electrocardiogram (ECG) monitor designed and developed using exclusively analog electronics for signal acquisition, amplification, and filtering. The device captures cardiac electrical activity through three electrodes and outputs a clean ECG waveform for real-time monitoring on an oscilloscope.
 
 <p align="center">
-<img width="50%"  src="Images/Final_Product_Studio.jpg"/>
+<img width="50%"  src="Images/Final_Product_Studio.png"/>
 <p/>
 ## 🔬 Overview
 
