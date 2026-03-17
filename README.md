@@ -50,9 +50,9 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 ### Enclosure
 - **Manufacturing**: 3D printed
 - **Design**: Custom enclosure with cutouts for:
-  - Electrode connections
+  - Output probes
   - Power switch
-  - Output leads
+  - ECG leads
   - Potentiometer access for gain adjustment
 
 ## 📊 Testing Results
