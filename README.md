@@ -44,8 +44,8 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 
 ### PCB Design
 - **Software**: EasyEDA
-- **Type**: Through-hole components for reliability and ease of assembly
-- **Layout**: Optimized for minimal noise coupling and proper grounding
+- **Type**: Through-hole components for cost effectiveness and ease of assembly
+- **Layout**: 2-Layer optimized for minimal noise coupling and proper grounding
 
 ### Enclosure
 - **Manufacturing**: 3D printed
