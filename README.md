@@ -63,7 +63,9 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
     
  <p align=>
   <img width="37%"  src="Images/Enclosure 1.jpg"/>
+   &nbsp;&nbsp;
   <img width="27%"  src="Images/Enclosure 2.jpg"/>
+   &nbsp;&nbsp;
   <img width="26.5%"  src="Images/Enclosure 3.jpg"/> 
 <p/>
 
