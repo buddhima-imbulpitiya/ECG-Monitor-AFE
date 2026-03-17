@@ -1,7 +1,13 @@
-# 3-Lead Analog ECG Monitor
+# 3-Lead ECG Monitor - AFE
 
-A fully functional analog electrocardiogram (ECG) monitor designed and developed using exclusively analog electronics for signal acquisition, amplification, and filtering. The device captures cardiac electrical activity through three electrodes and outputs a clean ECG waveform for real-time monitoring on an oscilloscope.
+A fully functional analog front end (AFE) for an electrocardiogram (ECG) monitor designed and developed using exclusively analog electronics for signal acquisition, amplification, and filtering. The device captures cardiac electrical activity through three electrodes and outputs a clean ECG waveform for real-time monitoring on an oscilloscope.
 
+<p align=>
+  <img width="35%"  src="Images/Final_Product_Studio.png"/>
+  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+  <img width="41%"  src="Images/Clean ECG Output.jpg"/>
+<p/>
+  
 ## 🔬 Overview
 
 This project demonstrates the design and implementation of a 3-lead ECG monitoring system built entirely with analog components. The device safely extracts weak bioelectric signals from the human body (10 μV to 5 mV), amplifies them, and filters noise to produce a diagnostic-quality ECG waveform suitable for cardiac monitoring.
@@ -10,8 +16,8 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 
 - **Signal Range**: 10 μV - 5 mV input amplitude
 - **Frequency Range**: 0.5 Hz - 100 Hz (cardiac signal bandwidth)
-- **Electrode Configuration**: 3-lead setup (LA, RA, RL) following Einthoven's Triangle
-- **Power Supply**: Battery-operated (dual 6V Li-Ion) for minimal powerline interference
+- **Electrode Configuration**: 3-lead setup (LA, RA, RL) following Einthoven's Triangle (Lead-I)
+- **Power Supply**: Battery-operated (dual 7.4V Li-Ion) for minimal powerline interference
 - **Output**: Analog signal for oscilloscope display
 
 ## ✨ Features
@@ -38,15 +44,21 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 
 ### PCB Design
 - **Software**: EasyEDA
-- **Type**: Through-hole components for reliability and ease of assembly
-- **Layout**: Optimized for minimal noise coupling and proper grounding
+- **Type**: Through-hole components for cost effectiveness and ease of assembly
+- **Layout**: 2-Layer optimized for minimal noise coupling and proper grounding
 
+<p align=>
+  <img width="33%"  src="Images/2D_PCB1_Top.png"/>
+  <img width="33%"  src="Images/3D_PCB1_Side.png"/>
+  <img width="33%"  src="Images/3D_PCB1_Top.png"/> 
+<p/>
+  
 ### Enclosure
 - **Manufacturing**: 3D printed
 - **Design**: Custom enclosure with cutouts for:
-  - Electrode connections
+  - Output probes
   - Power switch
-  - Output leads
+  - ECG leads
   - Potentiometer access for gain adjustment
 
 ## 📊 Testing Results
@@ -81,7 +93,7 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 - 3D printer (for enclosure)
 - Standard ECG electrodes with 3.5mm connectors
 - Oscilloscope for signal visualization
-- 6V Li-Ion batteries (×2)
+- 7.4V Li-Ion batteries (×4)
 
 ### Building the Device
 
