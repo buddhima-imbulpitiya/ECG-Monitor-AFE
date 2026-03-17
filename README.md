@@ -81,7 +81,12 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
  &nbsp;&nbsp;&nbsp;
   <img width="59%"  src="Images/LTSpice Simulation.png"/>
 <p/>
-  
+<p align=>
+  <img width=""  src="Images/LTSpice Input.png"/>
+ &nbsp;&nbsp;&nbsp;
+  <img width=""  src="Images/LTSpice Output.png"/>
+<p/>
+
 
 ### Final PCB Device
 - ✅ Improved signal quality over breadboard implementation
