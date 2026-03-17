@@ -105,6 +105,12 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 - ✅ Reduced noise and interference
 - ✅ Portable and user-friendly operation
 
+<p align=>
+  <img width="35%"  src="Images/Final_Product.png"/>
+  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+  <img width="41%"  src="Images/Final Assembly.jpg"/>
+<p/>
+
 ## 📁 Repository Structure
 
 ```
