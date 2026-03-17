@@ -4,8 +4,8 @@ A fully functional analog front end (AFE) for an electrocardiogram (ECG) monitor
 
 <p align=>
   <img width="35%"  src="Images/Final_Product_Studio.png"/>
-  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-  <img width="40.5%"  src="Images/Clean ECG Output.jpg"/>
+  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+  <img width="41%"  src="Images/Clean ECG Output.jpg"/>
 <p/>
 ## 🔬 Overview
 
