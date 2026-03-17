@@ -60,6 +60,12 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
   - Power switch
   - ECG leads
   - Potentiometer access for gain adjustment
+    
+ <p align=>
+  <img width="33%"  src="Images/Enclosure 1.png"/>
+  <img width="33%"  src="Images/Enclosure 2.png"/>
+  <img width="33%"  src="Images/Enclosure 3.png"/> 
+<p/>
 
 ## 📊 Testing Results
 
