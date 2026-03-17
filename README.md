@@ -48,9 +48,9 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 - **Layout**: 2-Layer optimized for minimal noise coupling and proper grounding
 
 <p align=>
-  <img width="35%"  src="Images/2D_PCB1_Top.png"/>
-  <img width="35%"  src="Images/3D_PCB1_Side.png"/>
-  <img width="35%"  src="Images/3D_PCB1_Top.png"/> 
+  <img width="30%"  src="Images/2D_PCB1_Top.png"/>
+  <img width="30%"  src="Images/3D_PCB1_Side.png"/>
+  <img width="30%"  src="Images/3D_PCB1_Top.png"/> 
 <p/>
   
 ### Enclosure
