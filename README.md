@@ -16,7 +16,7 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 
 - **Signal Range**: 10 μV - 5 mV input amplitude
 - **Frequency Range**: 0.5 Hz - 100 Hz (cardiac signal bandwidth)
-- **Electrode Configuration**: 3-lead setup (LA, RA, RL) following Einthoven's Triangle (Lead I)
+- **Electrode Configuration**: 3-lead setup (LA, RA, RL) following Einthoven's Triangle (Lead-I)
 - **Power Supply**: Battery-operated (dual 7.4V Li-Ion) for minimal powerline interference
 - **Output**: Analog signal for oscilloscope display
 
