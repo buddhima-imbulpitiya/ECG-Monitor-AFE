@@ -87,7 +87,7 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 - 3D printer (for enclosure)
 - Standard ECG electrodes with 3.5mm connectors
 - Oscilloscope for signal visualization
-- 6V Li-Ion batteries (×2)
+- 7.4V Li-Ion batteries (×4)
 
 ### Building the Device
 
