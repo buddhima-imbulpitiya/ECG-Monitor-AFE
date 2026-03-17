@@ -76,6 +76,13 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 - ✅ Verified with real human ECG signals
 - ✅ Clean waveform with identifiable P, QRS, and T waves
 
+<p align=>
+  <img width="35%"  src="Images/Breadboard Circuit.JPG"/>
+  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+  <img width="41%"  src="Images/LTSpice Simulation.png"/>
+<p/>
+  
+
 ### Final PCB Device
 - ✅ Improved signal quality over breadboard implementation
 - ✅ Reduced noise and interference
