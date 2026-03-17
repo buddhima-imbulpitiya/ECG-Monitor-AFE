@@ -106,8 +106,8 @@ This project demonstrates the design and implementation of a 3-lead ECG monitori
 - ✅ Portable and user-friendly operation
 
 <p align=>
-  <img width="41%"  src="Images/Final_Product.jpg"/>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img width="40%"  src="Images/Final_Product.jpg"/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img width="40%"  src="Images/Final Assembly.JPG"/>
 <p/>
 
